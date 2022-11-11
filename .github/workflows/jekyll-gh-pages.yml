@@ -40,7 +40,7 @@ jobs:
         uses: codeboten/github-action-to-otlp@v1
         with:
           endpoint: "https://otlp.nr-data.net:4317"
-          headers: "api-key=${{ secrets.NR_INGEST_LICENSE_KEY }}"
+          headers: "api-key=${{ secrets.INGEST_LICENSE_KEY }}"
           
   # Deployment job
   deploy:
