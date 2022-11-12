@@ -10,6 +10,7 @@
         - [Config as code](/sections/reference/newrelic/config-as-code.md)
         - [Alerts](/sections/reference/newrelic/alerts.md)
         - [Synthetics](/sections/reference/newrelic/synthetics.md)
+        - [Videos](/sections/reference/newrelic/videos.md)
     * [Standards & best practice](/sections/standards/standards.md)
 
 
