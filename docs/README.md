@@ -1,5 +1,5 @@
 <!-- TODO: Update and extend this introduction with your own customised content -->
-# The OCoE Launch Pad
+# The Observability Launch Pad
 > This guide aims to help get you started with Observability and New Relic. Here you can find quick start information for getting up and running with the observability tooling.
 
 
