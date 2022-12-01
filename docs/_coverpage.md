@@ -1,13 +1,11 @@
-# Observability Centre of Excellence 
+# **New Relic Observability**
 
-![Observability Centrer of Excellence](_media/centre-of-excellence-logo.png)
+![Observability](_media/centre-of-excellence-logo.png)
 
-# **Launch Pad**
+# Centre of Excellence
 
-> Getting started with Observability and New Relic 
+> Data for Engineers
 
-
-
-[Get Started](#the-ocoe-launch-pad) <!--  Use ID of homepage heading i.e. based on H1 of README.md - make sure this is DIFFERENT to the cover's heading -->
+[Join us on Slack](https://newrelicusers.slack.com/) <!--  Use ID of homepage heading i.e. based on H1 of README.md - make sure this is DIFFERENT to the cover's heading -->
 
 ![cover background image](_media/cover-background.jpg)
