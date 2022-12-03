@@ -20,4 +20,5 @@
     - [AWS Batch](./tutorials/aws/aws-batch.md)
   * [Database Monitoring](./tutorials/db/index)
     - [Microsoft SQL Server](./tutorials/db/mssql.md)
+    - [Oracle Database](./tutorials/db/oracledb.md)
     - [SAP Adaptive Server Enterprise](./tutorials/db/sybase.md)

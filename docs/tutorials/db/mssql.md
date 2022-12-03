@@ -65,6 +65,23 @@ GRANT SELECT on msdb.dbo.sysjobs TO newrelic;
 GRANT SELECT on msdb.dbo.sysjobhistory TO newrelic;
 ```
 
+### mssql-win-definition.yml
+Upon installing `nri-mssql` you should get this file `mssql-win-definition.yml` found in `C:\Program Files\New Relic\newrelic-infra\newrelic-integrations`.  This file does not have to be modified, but if you don't have it, create it manually.  The contents look like this:
+```yml
+name: com.newrelic.mssql
+description: Reports status and metrics for MSSQL service
+protocol_version: 1
+os: windows
+
+commands:
+  all_data:
+    command:
+      - .\bin\nri-mssql.exe
+    prefix: config/mssql
+    interval: 15
+
+```
+
 ### mssql-config.yml
 For this configuration, you'll need to provide your database connection details such as the `HOSTNAME`, `USERNAME`, `PASSWORD`, and `PORT`.
 
