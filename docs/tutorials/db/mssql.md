@@ -1,6 +1,9 @@
 # Microsoft SQL Server
 There are a few ways to monitor Microsoft SQL Server databases, and the process is mostly the same whether it is on-premise, on the cloud, or RDS instances. 
-The following instructions assumes you are running a Windows Server (64-bit) operating system.
+The following instructions assumes you are running a Windows Server (64-bit) operating system.  If you'd like to try this on Docker, use this Docker image:
+```
+sudo docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=NewRelic1!" -p 1433:1433 --name mssql-server --hostname mssql-server -d mcr.microsoft.com/mssql/server:2022-latest
+```
 
 ## Prerequisites
 1. Download and install the [New Relic Infrastructure Agent](https://download.newrelic.com/infrastructure_agent/windows/newrelic-infra.msi).
@@ -1144,7 +1147,7 @@ Here's what the dashboards should look like:
 ## FAQs
 
 ### I can't expose my credentials in the `mssql-config.yml` file, how to deal with this?
-Use the New Relic CLI tool to obfuscate usernames, passwords, etc.
+Use the New Relic CLI tool to obfuscate usernames, passwords, etc.  See [New Relic Secrets Management](https://docs.newrelic.com/docs/infrastructure/host-integrations/installation/secrets-management/#newrelic-cli-obfuscation).
 
 ```cmd
 newrelic agent config obfuscate --value '{\"username\":\"sa\",\"password\":\"NewRelic1!\"}' --key 'datacrunch-key'

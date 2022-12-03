@@ -6,6 +6,32 @@ Sybase monitoring is still experimental and provided as-is.
 2. SAP Adaptive Server (ASE) Sybase JDBC connector `jconn4.jar`
 3. New Relic Insights Insert Key: https://insights.newrelic.com/accounts/#######/manage/api_keys
 
+## Permissions
+
+Enable monitoring.  Note: Statement cache size may vary.
+```
+sp_configure "enable monitoring", 1
+sp_configure "enable stmt cache monitoring", 1
+sp_configure "execution time monitoring", 1
+sp_configure "statement cache size", 100
+```
+
+Create a monitoring user and grant the `mon_role` to this monitoring user account.
+```
+use master
+go
+sp_addlogin newrelic, "NewRelic1!", master
+sp_role "grant", mon_role, newrelic
+grant select on master..sysquerymetrics to mon_role
+go
+```
+
+If you already have a monitoring user, grant permissions
+```
+grant role mon_role to newrelic
+grant select on master..sysquerymetrics to mon_role
+```
+
 ## Setup
 Start by downloading and installing `nri-db`
 
