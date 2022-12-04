@@ -131,7 +131,7 @@ C:\Program Files\New Relic\newrelic-infra
             nri-oracledb.exe
 ```
 
-## oracledb-win-definition.yml
+## newrelic-integrations/oracledb-win-definition.yml
 The Linux `oracledb-definition.yml` does not need further modification.  This file has been renamed for Windows only.  Edit this file so it looks like this
 
 ```
@@ -148,7 +148,7 @@ commands:
     prefix: config/oracledb
 ```
 
-## oracledb-custom-query.yml
+## integrations.d/oracledb-custom-query.yml
 
 The `oracledb-custom-query.yml` does not need any modifications, unless you want to include your own queries.
 
@@ -165,7 +165,7 @@ queries:
       GROUP BY inst.inst_id
 ```
 
-## oracledb-config.yml
+## integrations.d/oracledb-config.yml
 This config file should look like this in general.  Comment out paths for `ORACLE_HOME` and `CUSTOM_METRICS_CONFIG` as needed by your operating system.
 
 For Linux users, rename `oracledb-config.yml.sample` to `oracledb-config.yml`.
@@ -200,10 +200,31 @@ integrations:
 ```
 
 
-
 You can query for your custom Oracle queries in New Relic by using
 ```
 SELECT * FROM OracleCustomSample
+```
+
+## logging.d/file.yml
+You should have a `file.yml.example` file.  Rename this to `file.yml` and the contents should look like the following.  Change path to log files as needed.
+
+```
+logs:
+  - name: ORACLEDB_ALERT_XE
+    file: /opt/oracle/product/21c/diag/rdbms/xe/xe/trace/alert_xe.log
+    # file: D:\app\Peter\product\21c\diag\rdbms\xe\xe\trace\alert_xe.log
+    attributes:
+      team: datacrunch
+      appName: datacrunch-oracledb
+      tag: value
+      
+  - name: ORACLEDB_ATTENTION_XE
+  file: /opt/oracle/product/21c/diag/rdbms/xe/xe/trace/attention_xe.log
+  # file: D:\app\Peter\product\21c\diag\rdbms\xe\xe\trace\attention_xe.log
+  attributes:
+    team: datacrunch
+    appName: datacrunch-oracledb
+    tag: value
 ```
 
 ## Dashboard
