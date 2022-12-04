@@ -36,9 +36,9 @@ grant select on master..sysquerymetrics to mon_role
 Start by downloading and installing `nri-db`
 
 ```
-curl -OL https://github.com/newrelic-experimental/nri-db/releases/download/v.2.1.1/nri-db-2.1.1.tar
-sudo tar -C /opt -xvf nri-db-2.1.1.tar
-cd /opt/nri-db-2.1.1
+curl -OL https://github.com/newrelic-experimental/nri-db/releases/download/v.2.1.2/nri-db-2.1.2.tar
+sudo tar -C /opt -xvf nri-db-2.1.2.tar
+cd /opt/nri-db-2.1.2.tar
 sudo cp plugin.example.json plugin.json
 sudo ./bin/encrypt-password
 ```
@@ -103,7 +103,7 @@ Your file structure should like this:
 │   ├── jackson-databind-2.6.7.1.jar
 │   ├── jasypt-1.9.3.jar
 │   ├── jconn4.jar
-│   ├── nri-db-2.1.1.jar
+│   ├── nri-db-2.1.2.jar
 │   ├── postgresql-42.2.19.jar
 │   ├── slf4j-api-1.7.30.jar
 │   └── slf4j-jdk14-1.7.30.jar
@@ -142,16 +142,16 @@ Edit the `plugin.json` file using something like `sudo nano ./config/plugin.json
 
 ### lib/jconn4.jar
 
-Copy the Sybase JDBC connector `jconn4.jar` to `/opt/nri-db-2.1.1/lib`.  You can typically find this file under `/opt/SAP/jConnect-16_0/classes/jconn4.jar`
+Copy the Sybase JDBC connector `jconn4.jar` to `/opt/nri-db-2.1.2/lib`.  You can typically find this file under `/opt/SAP/jConnect-16_0/classes/jconn4.jar`
 ```
-sudo mv ./jconn4.jar /opt/nri-db-2.1.1/lib
+sudo mv ./jconn4.jar /opt/nri-db-2.1.2/lib
 ```
 
 ### bin/nri-db
 
 Edit `nri-db` and append `$APP_HOME/lib/jconn4.jar:` to the `CLASSPATH` so that it looks something like this:
 ```
-CLASSPATH=$CLASSPATH:$APP_HOME/lib/jconn4.jar:$APP_HOME/lib/nri-db-2.1.1.jar
+CLASSPATH=$CLASSPATH:$APP_HOME/lib/jconn4.jar:$APP_HOME/lib/nri-db-2.1.2.jar
 ```
 
 ### examples/input_sybase.json
@@ -248,7 +248,7 @@ This file is case-sensitive.  The `SELECT * FROM` should all be in CAPITAL lette
 ```
 
 ## Run nri-db
-This needs to be run inside `/opt/nri-db-2.1.1/` or else it fails to pick up the config files.  Use `nohup` to run in the background like this:
+This needs to be run inside `/opt/nri-db-2.1.2/` or else it fails to pick up the config files.  Use `nohup` to run in the background like this:
 
 ```
 sudo nohup ./bin/nri-db &
