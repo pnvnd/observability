@@ -19,6 +19,7 @@
     - [CloudWatch Metric Streams](./tutorials/aws/metric-streams.md)
     - [AWS Batch](./tutorials/aws/aws-batch.md)
   * [Custom](./tutorials/custom/index)
+    - [Apache HTTP Server](./tutorials/custom/apache2.md)
     - [webMethods](./tutorials/custom/webmethods.md)
   * [Database Monitoring](./tutorials/db/index)
     - [Microsoft SQL Server](./tutorials/db/mssql.md)
