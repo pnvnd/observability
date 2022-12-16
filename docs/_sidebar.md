@@ -20,6 +20,7 @@
     - [AWS Batch](./tutorials/aws/aws-batch.md)
   * [Custom](./tutorials/custom/index)
     - [Apache HTTP Server](./tutorials/custom/apache2.md)
+    - [IBM MQ](./tutorials/custom/ibmmq.md)
     - [webMethods](./tutorials/custom/webmethods.md)
   * [Database Monitoring](./tutorials/db/index)
     - [Microsoft SQL Server](./tutorials/db/mssql.md)

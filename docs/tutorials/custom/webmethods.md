@@ -10,7 +10,7 @@ This is a work in progress.  The default setup includes Logs and Errors Inbox to
 2. Edit C:\SoftwareAG\profiles\IS_default\configuration\wrapper.conf and add a line `wrapper.java.additional.10=-javaagent:C:\newrelic\newrelic.jar`
 3. Restart webMethods Integration Server
 4. Check http://localhost:5555/WmAdmin/ - the default username is `Administrator` and password is `manage`
-   
+
 ## Configuration
 1. Create a new folder called `extensions` in `C:\newrelic`
 2. Create a new file `webMethods.xml` and put it inside `C:\newrelic\extensions`
