@@ -10,8 +10,8 @@ At this time, New Relic IBM MQ monitoring solution is only supported in Linux.  
 flowchart TB
 
     subgraph mq_prometheus[Prometheus Exporter]
-    http://localhost:9157
-    http://localhost:9158
+    http://localhost:9157/metrics
+    http://localhost:9158/metrics
     end
 
     subgraph prometheus[Prometheus Server]
@@ -187,4 +187,5 @@ flowchart TB
    ![](ibmmq/ibmmq_18.png)
 
 
-
+## Creating Windows Services
+Comming soon.
