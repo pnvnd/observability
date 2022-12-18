@@ -165,7 +165,8 @@ At this time, New Relic IBM MQ monitoring solution is only supported in Linux.  
    START /D D:\mq-metric-samples /B mq_prometheus.exe -f ibmmq_qm2.yaml
    ```
 
-   This command is saying: `START` from working directory `/D` `D:\mq-metric-samples` and run `mq_prometheus.exe` with configuration `f`ile `ibmmq_qm1.yaml` in the `/B`ackground.
+   This command is saying: `START` from working directory `/D` `D:\mq-metric-samples` and run `mq_prometheus.exe` with configuration `f`ile `ibmmq_qm1.yaml` in the `/B`ackground.  If you are having issues with the exporter at this step, check your firewall to make sure `mq_prometheus.exe` is allowed over your firewall. You may also want to check the ports are not being blocked as well.  
+   ![](ibmmq/ibmmq_19.png)
 
    ### Commnad Line Alternative (Not Recommended)
    If you are running a `bat` file with the commands that include the configuration file, you can skip this step.  As an alternative, the command line can be used if you want the `mq_prometheus.exe` exporter to run. If you have multiple queue managers, you'll need to run this again for another queue manager on a different port.  Assuming I have two queue managers where I want QM1 metrics sent to port 9157 and QM2 metrics sent to port 9158, run these commands on separate terminals as an Administrator:
