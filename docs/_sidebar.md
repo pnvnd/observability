@@ -19,6 +19,7 @@
     - [AWS Batch](./tutorials/aws/aws-batch.md)
   * [Custom Instrumentation](./tutorials/custom/index)
     - [Apache HTTP Server](./tutorials/custom/apache2.md)
+    - [Chargeback](./tutorials/custom/chargeback.md)
     - [IBM MQ](./tutorials/custom/ibmmq.md)
     - [Scheduled Notifications](./tutorials/custom/scheduled-notifications.md)
     - [webMethods](./tutorials/custom/webmethods.md)
