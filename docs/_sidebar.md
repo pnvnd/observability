@@ -17,6 +17,7 @@
   * [Amazon Web Services](./tutorials/aws/index)
     - [CloudWatch Metric Streams](./tutorials/aws/metric-streams.md)
     - [AWS Batch](./tutorials/aws/aws-batch.md)
+    - [Lambda (Python)](./tutorials/aws/lambda-python.md)
   * [Custom Instrumentation](./tutorials/custom/index)
     - [Apache HTTP Server](./tutorials/custom/apache2.md)
     - [Chargeback](./tutorials/custom/chargeback.md)
