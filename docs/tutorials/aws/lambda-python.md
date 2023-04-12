@@ -7,16 +7,16 @@
 
 ## Code
 Log into your AWS console and go to AWS Lambda.  On the top right, click **Create function**.
-![Screenshot 1](/docs/tutorials/aws/lambda-python/lambda-python_01.png)
+![Screenshot 1](lambda-python/lambda-python_01.png)
 
 Select **Author from scratch**.  
-![Screenshot 2](/docs/tutorials/aws/lambda-python/lambda-python_02.png)
+![Screenshot 2](lambda-python/lambda-python_02.png)
 
 Then under Basic Information, give your function a name.  Select a runtime (Python 3.9 or 3.8 should work for this example).  Select an architecture.  In this example, we use the x86_64 option.  No other changes are needed here, so click **Create function** on the bottom right.
  - **x86_64 (amd64)**
  - arm64
 
-![Screenshot 3](/docs/tutorials/aws/lambda-python/lambda-python_03.png)
+![Screenshot 3](lambda-python/lambda-python_03.png)
 
 Note: Your function name will be your `entity.name` and `service.name` in New Relic.
 
@@ -48,7 +48,7 @@ Note: Your function name will be your `entity.name` and `service.name` in New Re
         }
     ```
 
-    ![Screenshot 4](/docs/tutorials/aws/lambda-python/lambda-python_04.png)
+    ![Screenshot 4](lambda-python/lambda-python_04.png)
 
 2. Go to File > New File and add `collector.yaml` to the root of the project.  Replace api-key with your New Relic INGEST - LICENSE key.
 
@@ -76,7 +76,7 @@ Note: Your function name will be your `entity.name` and `service.name` in New Re
         receivers: [otlp]
         exporters: [otlp]
     ```
-    ![Screenshot 5](/docs/tutorials/aws/lambda-python/lambda-python_05.png)
+    ![Screenshot 5](lambda-python/lambda-python_05.png)
 
 
 ### Layers
@@ -99,7 +99,7 @@ On the right, click on **Add permissions** then select **Attach policies**.  Sea
 
 Note: If you want to generate errors, remove these permissions and text/invoke your Lambda function again.
 
-![Screenshot 6](/docs/tutorials/aws/lambda-python/lambda-python_06.png)
+![Screenshot 6](lambda-python/lambda-python_06.png)
 
 ## Environment variables
 
@@ -108,15 +108,15 @@ Note: If you want to generate errors, remove these permissions and text/invoke y
 | AWS_LAMBDA_EXEC_WRAPPER | /opt/otel-instrument | Enables instrumentation.  Remove to uninstrument. |
 | OPENTELEMETRY_COLLECTOR_CONFIG_FILE | /var/task/collector.yaml | Uses custom collector configuration file. |
 
-![Screenshot 7](/docs/tutorials/aws/lambda-python/lambda-python_07.png)
+![Screenshot 7](lambda-python/lambda-python_07.png)
 
 
 ## Monitoring and operations tools
 Active tracing (X-Ray) must be enabled.
 
-![Screenshot 8](/docs/tutorials/aws/lambda-python/lambda-python_08.png)
+![Screenshot 8](lambda-python/lambda-python_08.png)
 
-![Screenshot 9](/docs/tutorials/aws/lambda-python/lambda-python_09.png)
+![Screenshot 9](lambda-python/lambda-python_09.png)
 
 Test your Lambda function and deploy.  Create a function URL if needed.
 
@@ -130,26 +130,26 @@ Query your data and use the following NRQL to see data:
 SELECT * FROM Span
 ```
 
-![Screenshot 10](/docs/tutorials/aws/lambda-python/lambda-python_10.png)
+![Screenshot 10](lambda-python/lambda-python_10.png)
 
 ### APM & Services
 Under OpenTelemetry, check for your Lambda function name to appear.
 
 #### Summary
-![Screenshot 11](/docs/tutorials/aws/lambda-python/lambda-python_11.png)
+![Screenshot 11](lambda-python/lambda-python_11.png)
 
 #### Distributed Tracing
-![Screenshot 12](/docs/tutorials/aws/lambda-python/lambda-python_12.png)
-![Screenshot 13](/docs/tutorials/aws/lambda-python/lambda-python_13.png)
-![Screenshot 14](/docs/tutorials/aws/lambda-python/lambda-python_14.png)
+![Screenshot 12](lambda-python/lambda-python_12.png)
+![Screenshot 13](lambda-python/lambda-python_13.png)
+![Screenshot 14](lambda-python/lambda-python_14.png)
 
 #### Transactions
-![Screenshot 15](/docs/tutorials/aws/lambda-python/lambda-python_15.png)
+![Screenshot 15](lambda-python/lambda-python_15.png)
 
 #### External Services
-![Screenshot 16](/docs/tutorials/aws/lambda-python/lambda-python_16.png)
+![Screenshot 16](lambda-python/lambda-python_16.png)
 
 #### Errors Inbox
 If you want some errors, remove permissions for S3 and EC2 read-only access and invoke the Lambda function again.
-![Screenshot 17](/docs/tutorials/aws/lambda-python/lambda-python_17.png)
-![Screenshot 18](/docs/tutorials/aws/lambda-python/lambda-python_18.png)
+![Screenshot 17](lambda-python/lambda-python_17.png)
+![Screenshot 18](lambda-python/lambda-python_18.png)
