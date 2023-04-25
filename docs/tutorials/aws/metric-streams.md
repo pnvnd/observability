@@ -19,7 +19,7 @@ Log into your AWS Console and go to **IAM** > **Roles** and click on "Create Rol
 
 1. Select "AWS account"
 2. Under "An AWS account", select "Another AWS account" and enter Account ID: **754728514883** (as seen in the New Relic Guide)
-3. Check "Require external ID" and enter External ID: **3293157**
+3. Check "Require external ID" and enter External ID, which is your New Relic account number.
 4. Click "Next"
 
 ![](metric-streams/metric-streams_02.png)
