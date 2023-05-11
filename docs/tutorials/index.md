@@ -4,6 +4,7 @@ Check out some tutorials on [YouTube](https://www.youtube.com/@NewRelicInc).
 - [Alerts & AI](/tutorials/index?id=alerts-amp-ai)
 - [Application Performance Monitoring](/tutorials/index?id=application-performance-monitoring)
 - [Browser](/tutorials/index?id=browser)
+- [Change Tracking](/tutorials/index?id=change-tracking)
 - [CodeStream](/tutorials/index?id=codestream)
 - [Dashboards](/tutorials/index?id=dashboards)
 - [GraphQL](/tutorials/index?id=graphql)
@@ -37,6 +38,8 @@ Check out some tutorials on [YouTube](https://www.youtube.com/@NewRelicInc).
 | [Discover how to use the new Issue Page experience](https://www.youtube.com/watch?v=du6XcgPnGl0) | 5:59 | Alerts & AI |
 | [Beyond the Basics: Reducing TTD and Increasing Reliability](https://www.youtube.com/watch?v=buROyDWwvO4) | 51:45 | Alerts & AI |
 | [Alerting Best Practices](https://www.youtube.com/watch?v=EvG8h3yGapA) | 53:16 | Alerts & AI |
+| [Changelog - Introducing the Observability Maturity Architecture](https://www.youtube.com/watch?v=lozUZrA8vXA) | 40:49 | Alerts & AI |
+| [The New Alert Condition Creation Form](https://www.youtube.com/watch?v=xUfyeZymvBU) | 4:40 | Alerts & AI |
 | [How to filter your issues by condition tags](https://www.youtube.com/watch?v=ohnp73vt5ro) | 2:09 | Alerts & AI / Alert conditions |
 | [Set up Sliding Window Aggregation in your Alert Conditions](https://www.youtube.com/watch?v=-5--8DZynFE) | 2:31 | Alerts & AI / Alert conditions |
 | [Cut Alert Noise With In-Context Alerts & Dynamic Baselines](https://www.youtube.com/watch?v=NV9ueK8JmRo) | 26:27 | Alerts & AI / Alert conditions |
@@ -83,6 +86,9 @@ Check out some tutorials on [YouTube](https://www.youtube.com/@NewRelicInc).
 | [Resolve Errors Faster with Full Stack Error Tracking](https://www.youtube.com/watch?v=RNFDPvrdSek) | 35:02 | APM / Errors inbox |
 | [Create Jira Tickets using Error Data from Errors Inbox](https://www.youtube.com/watch?v=v2frs2Pyjfw) | 4:32 | APM / Errors inbox |
 | [Tracking Errors Intelligently](https://www.youtube.com/watch?v=M52jeJsnOfU) | 5:10 | APM / Errors inbox |
+| [Prioritize and resolve errors faster with errors inbox](https://www.youtube.com/watch?v=BSW-AraNnE0) | 3:01 | APM / Errors inbox |
+| [Changelog - Errors Inbox shows you what to fix, and when](https://www.youtube.com/watch?v=rCF-6ms5mzI) | 34:06 | APM / Errors inbox |
+| [Seamlessly analyze and triage errors with the New Errors experience](https://www.youtube.com/watch?v=i5_NVpMA_B8) | 3:11 | APM / Errors inbox |
 | [Using external services to track dependencies](https://www.youtube.com/watch?v=903EF9MAql8) | 1:31 | APM / External services |
 | [Auto-Magically Instrument Your Server With Guided Install](https://www.youtube.com/watch?v=6LuEkqiCSvE) | 21:40 | APM / Instrumentation |
 | [Collecting Custom Data](https://www.youtube.com/watch?v=1omGu8A0O7A) | 49:21 | APM / Instrumentation |
@@ -90,6 +96,8 @@ Check out some tutorials on [YouTube](https://www.youtube.com/@NewRelicInc).
 | [Using application logs in context with auto config](https://www.youtube.com/watch?v=Vgae-GrlZWg) | 3:40 | APM / Logs |
 | [New Relic Lambda Layer and CLI installer for no-code instrumentation of serverless monitoring](https://www.youtube.com/watch?v=mkkvniNn7zU) | 3:35 | APM / node.js |
 | [NextJs + New Relic - Full stack observability](https://www.youtube.com/watch?v=kNU9erBezdc) | 4:28 | APM / node.js |
+| [Native support for cumulative metrics from OTel and Prometheus](https://www.youtube.com/watch?v=3TeiPEE_LRk) | 2:14 | APM / OpenTelemetry |
+| [Managing Agent Versions with Groundskeeper](https://www.youtube.com/watch?v=vufZB_rVzp8) | 2:29 | APM / Programmability |
 | [Fix OTT Streaming Issues fast with New Relic Roku Agent](https://www.youtube.com/watch?v=_E7e5Rd1LGc) | 2:57 | APM / Roku |
 | [Changelog - Binge on Roku monitoring data](https://www.youtube.com/watch?v=aLs5mni_pvU) | 36:37 | APM / Roku |
 | [Monitoring Application Health with New Relic](https://www.youtube.com/watch?v=PYt9sJdHeBI) | 17:47 | APM / Ruby |
@@ -105,6 +113,15 @@ Check out some tutorials on [YouTube](https://www.youtube.com/@NewRelicInc).
 | [Real-user monitoring support for Google Core Web Vitals](https://www.youtube.com/watch?v=1zCPIWArIy8) | 22:26 | Browser |
 | [Our Browser Monitoring Agent is Open Source!](https://www.youtube.com/watch?v=NLaNHSByLqI) | 57:30 | Browser |
 
+## Change Tracking
+
+| Title | Duration | Topic |
+| :-- | :-- | :-- |
+| [Changelog - New Relic Change Tracking](https://www.youtube.com/watch?v=nanYRPtbdM0) | 43:22 | Change Tracking |
+| [New Relic Change Tracking](https://www.youtube.com/watch?v=ikRUKJf7hyU) | 6:01 | Change Tracking |
+| [NerdGraph API and New Relic CLI for Change Tracking](https://www.youtube.com/watch?v=S0WuLnjCzes) | 2:21 | Change Tracking |
+| [New Relic Change Tracking with GitHub Actions](https://www.youtube.com/watch?v=hRgv0VcuJp4) | 4:20 | Change Tracking |
+
 ## CodeStream
 
 | Title | Duration | Topic |
@@ -116,6 +133,8 @@ Check out some tutorials on [YouTube](https://www.youtube.com/@NewRelicInc).
 | [Access golden signals from within your IDE with CodeStream](https://www.youtube.com/watch?v=OP3KF74XEGQ) | 3:40 | CodeStream |
 | [Request feedback on your code changes with CodeStream](https://www.youtube.com/watch?v=lekPPyeG69I) | 4:26 | CodeStream |
 | [Real Code Collaboration: New Relic Codestream](https://www.youtube.com/watch?v=jClr4hvn_0U) | 44:36 | CodeStream |
+| [Changelog - Get Observability Data directly in your IDE with Codestream](https://www.youtube.com/watch?v=Ff5jRJY5970) | 24:38 | CodeStream |
+| [Access telemetry data from within your IDE with CodeStream](https://www.youtube.com/watch?v=qeHRGCdmbSI) | 4:12 | CodeStream |
 
 ## Dashboards
 
@@ -126,6 +145,11 @@ Check out some tutorials on [YouTube](https://www.youtube.com/@NewRelicInc).
 | [Installing Your First Quickstart From New Relic I/O](https://www.youtube.com/watch?v=sFt1Tx5qPRU) | 4:08 | Dashboards |
 | [Simple onboarding: Add data and dashboard templates in minutes](https://www.youtube.com/watch?v=6U-RQIkBJOA) | 4:59 | Dashboards |
 | [Upgrading to New Relic One Dashboards](https://www.youtube.com/watch?v=oONRQSZpMgs) | 6:30 | Dashboards |
+| [Enhance your New Relic dashboards with Markdown](https://www.youtube.com/watch?v=_dLwy7xskBk) | 3:11 | Dashboards |
+| [New Chart Customization Features (Interactive Demo)](https://www.youtube.com/watch?v=LA2jM_asl94) | 4:49 | Dashboards |
+| [Template Variables: Build Dynamic New Relic Dashboards Pt1](https://www.youtube.com/watch?v=sVPYxJQ49Tk) | 2:48 | Dashboards |
+| [Template Variables: Explore the Use Cases Pt2](https://www.youtube.com/watch?v=SLGCP1GPXV0) | 6:10 | Dashboards |
+| [Dashboard Template Variables in New Relic Mobile](https://www.youtube.com/watch?v=t2x20sW0HqM) | 5:07 | Dashboards |
 | [Send Automated Dashboard Snapshots to Slack or to File](https://www.youtube.com/watch?v=v5vBGV2Yy_0) | 3:57 | Dashboards / GraphQL |
 | [Custom Charts with Formidable](https://www.youtube.com/watch?v=eJqCuixh0OQ) | 25:50 | Dashboards / Programmability |
 | [Custom Data Visualizations on New Relic](https://www.youtube.com/watch?v=HuR0EdHGz24) | 29:51 | Dashboards / Programmability |
@@ -164,25 +188,36 @@ Check out some tutorials on [YouTube](https://www.youtube.com/@NewRelicInc).
 | [Monitor CDN performance with Akamai DataStream2](https://www.youtube.com/watch?v=Hjw98NUxlh8) | 5:07 | Instrumentation / Akamai DataStream2 |
 | [Monitor CDN Performance with Amazon CloudFront](https://www.youtube.com/watch?v=to3giuHSiMo) | 7:17 | Instrumentation / Amazon CloudFront |
 | [Amazon SageMaker MLOps Integration](https://www.youtube.com/watch?v=U3ttUZhiuJ0) | 2:58 | Instrumentation / Amazon SageMaker |
+| [Azure Native New Relic Service](https://www.youtube.com/watch?v=48LHdqOMAsQ) | 5:31 | Instrumentation / Azure |
+| [Keep your telemetry in Microsoft Azure with Azure Native New Relic Service](https://www.youtube.com/watch?v=7UzFot5CZ5A) | 29:21 | Instrumentation / Azure |
 | [Cloud Optimize - Data Nerd Vlog with Sil](https://www.youtube.com/watch?v=qc4cHyPtylo) | 22:38 | Instrumentation / Cloud Optimize |
 | [Monitor CDN performance with Cloudflare Logpush](https://www.youtube.com/watch?v=nr-yRyvkmmc) | 5:42 | Instrumentation / Cloudflare Logpush |
 | [Low Code Way to Get Logs & Metrics into New Relic with Cribl LogStream](https://www.youtube.com/watch?v=8tMsy_5igZQ) | 39:13 | Instrumentation / Cribl |
 | [Real Life DevOps: Lessons Learned from Morningstar’s Path from Monolithic to Microservices](https://www.youtube.com/watch?v=1HjqcRBpWSY) | 1:00:31 | Instrumentation / DevOps |
 | [Monitor CDN performance with Fastly](https://www.youtube.com/watch?v=bm2GY0JkQSo) | 5:58 | Instrumentation / Fastly |
+| [Absolutely Simple Custom Monitoring with New Relic Flex](https://www.youtube.com/watch?v=SCbf1xGTJqI) | 11:35 | Instrumentation / Flex |
+| [Absolutely Simple Script Metrics with New Relic Flex](https://www.youtube.com/watch?v=3V7SbnmAjgk) | 9:43 | Instrumentation / Flex |
+| [Absolutely Simple JSON Metrics with New Relic Flex](https://www.youtube.com/watch?v=QCb1E74M_4g) | 6:49 | Instrumentation / Flex |
 | [Optimize Gatsby.js Build Performance with Observability](https://www.youtube.com/watch?v=xPwxAI0CyJo) | 48:57 | Instrumentation / Gatsby |
+| [Monitor GitLab with OpenTelemetry and New Relic](https://www.youtube.com/watch?v=_coCigldCMM) | 2:40 | Instrumentation / GitLab |
 | [Sending Logs From Heroku to New Relic](https://www.youtube.com/watch?v=sdmW2VIpXBM) | 27:08 | Instrumentation / Heroku Logs |
 | [Guided install: Instrumentation made simple](https://www.youtube.com/watch?v=pum_TBaq62M) | 3:50 | Instrumentation / Instrumentation |
 | [Instrumenting Your Service Using Agents](https://www.youtube.com/watch?v=DhNXGQ10CIk) | 43:58 | Instrumentation / Instrumentation |
 | [20 Ways To Send Data to New Relic](https://www.youtube.com/watch?v=G1qBDgTsMsU) | 5:23 | Instrumentation / Instrumentation |
+| [Monitoring the JFrog Platform in New Relic](https://www.youtube.com/watch?v=nHHLvvlPlNQ) | 8:53 | Instrumentation / JFrog |
 | [Integrating k6.io load testing with New Relic](https://www.youtube.com/watch?v=Br86ZHpf--A) | 4:54 | Instrumentation / k6.io |
 | [How to view Netlify logs in New Relic](https://www.youtube.com/watch?v=9rBUDKO5qNs) | 3:20 | Instrumentation / Netlify |
 | [Netlify and New Relic Integration](https://www.youtube.com/watch?v=bEw8NCK05A0) | 34:02 | Instrumentation / Netlify |
 | [Jumpstart jamstack monitoring with New Relic and Netlify](https://www.youtube.com/watch?v=BuJZXcw_Msg) | 4:48 | Instrumentation / Netlify / JAMstack |
 | [The Future of Open Source Observability](https://www.youtube.com/watch?v=zs2v2cy1lxI) | 1:00:24 | Instrumentation / Open Source |
+| [New Relic's OpenAI GPT 3 and GPT 4 Integration](https://www.youtube.com/watch?v=rf2s7ps9MSY) | 4:08 | Instrumentation / OpenAI |
 | [TechTalk Scaling Observability with Open Telemetry](https://www.youtube.com/watch?v=kOLBJJVsuog) | 14:06 | Instrumentation / OpenTelemetry |
 | [Monitor Postman API metrics in New Relic](https://www.youtube.com/watch?v=c9GPsYc7mKY) | 3:46 | Instrumentation / Postman |
+| [How to install and configure Prometheus agent mode Part 1](https://www.youtube.com/watch?v=BEZGMpesiWw) | 6:44 | Instrumentation / Prometheus |
+| [How to install Prometheus quickstarts Part 2](https://www.youtube.com/watch?v=ml3uQ3_PFRw) | 3:19 | Instrumentation / Prometheus |
 | [Send Prometheus metrics to New Relic](https://www.youtube.com/watch?v=ZkCw0hTRy1U) | 3:48 | Instrumentation / Prometheus |
 | [Setting Up New Relic’s Prometheus Integration](https://www.youtube.com/watch?v=QtpEK8i2OOI) | 8:06 | Instrumentation / Prometheus |
+| [Changelog - Prometheus: The data is out there!](https://www.youtube.com/watch?v=WtcQA4zirZs) | 24:03 | Instrumentation / Prometheus |
 | [Setting Up Prometheus and Grafana - Data Nerd Vlog with John](https://www.youtube.com/watch?v=AvqBp2joY5Q) | 5:43 | Instrumentation / Prometheus / Grafana |
 | [Build Your Own Quickstart on New Relic I/O](https://www.youtube.com/watch?v=WhLzMdHUwqg) | 43:15 | Instrumentation / Quickstarts |
 | [Monitoring Rails applications deployed to Render](https://www.youtube.com/watch?v=qRlHSu99Ak0) | 11:21 | Instrumentation / Render |
@@ -210,6 +245,7 @@ Check out some tutorials on [YouTube](https://www.youtube.com/@NewRelicInc).
 | [Pixie: Instrument Kubernetes With a Single Helm Command](https://www.youtube.com/watch?v=MaEgVRyFE-A) | 49:58 | Kubernetes |
 | [Analyze messages in Kubernetes without language agents](https://www.youtube.com/watch?v=YKwjXLNXdt4) | 5:16 | Kubernetes |
 | [Pixie Live Debugging in New Relic One](https://www.youtube.com/watch?v=QO7vz0jQEUI) | 6:21 | Kubernetes |
+| [Kubernetes Config for Cost & Performance](https://www.youtube.com/watch?v=uo2ArttI3c8) | 28:24 | Kubernetes |
 
 ## Logs
 
@@ -232,6 +268,10 @@ Check out some tutorials on [YouTube](https://www.youtube.com/@NewRelicInc).
 | [Troubleshooting Performance Issues With Logs in Context](https://www.youtube.com/watch?v=awCeXQZs2YE) | 4:49 | Logs |
 | [Parse Logs Faster with Machine Learning](https://www.youtube.com/watch?v=uH8zRmCxPqo) | 43:34 | Logs |
 | [Logs grok parsing rule tips](https://www.youtube.com/watch?v=0vV9iVltJck) | 5:52 | Logs |
+| [Creating Log Parsing Rules in New Relic](https://www.youtube.com/watch?v=xPWM46yw3bQ) | 4:48 | Logs |
+| [Parsing CSV and mixed JSON with our new Grok types](https://www.youtube.com/watch?v=kjacCYpR9r4) | 4:28 | Logs |
+| [Multi line log parsing with fluentbit](https://www.youtube.com/watch?v=XYh9wb29XPQ) | 4:11 | Logs |
+| [Sending activity logs from an Azure Event Hub](https://www.youtube.com/watch?v=i8T7bW2YOaE) | 5:44 | Logs |
 | [Export your streaming data for deeper data exploration](https://www.youtube.com/watch?v=Wg7jVdJa22A) | 6:29 | Logs / GraphQL |
 | [Creating Log Parsing Rules in New Relic](https://www.youtube.com/watch?v=PD7zGXqS0P0) | 4:32 | Logs / Grok |
 
@@ -274,6 +314,8 @@ Check out some tutorials on [YouTube](https://www.youtube.com/@NewRelicInc).
 | [Finding Trouble With Beautiful Data – The New Lookout](https://www.youtube.com/watch?v=gQnKRiCjI10) | 35:31 | NR1 - UI |
 | [Monitoring Your New Relic Data Ingestion](https://www.youtube.com/watch?v=bueXtzNAWig) | 36:32 | NR1 - UI |
 | [Compact, Beautiful Monitoring Dashboards](https://www.youtube.com/watch?v=SGBJm7ZMBuY) | 58:31 | NR1 - UI |
+| [Resolve issues faster with New Relic's collaboration features](https://www.youtube.com/watch?v=kCF0sg-ofEU) | 3:53 | NR1 - UI |
+| [Never miss an alert with New Relic's mobile app](https://www.youtube.com/watch?v=bVJZUatrCpY) | 7:21 | NR1 - UI |
 
 ## NRQL
 
@@ -295,6 +337,7 @@ Check out some tutorials on [YouTube](https://www.youtube.com/@NewRelicInc).
 | [Using Histograms and Heatmaps to Focus In on Slow Pages](https://www.youtube.com/watch?v=Gh4Km9aJoBE) | 4:18 | NRQL |
 | [Connect data across your stack with NRQL subqueries](https://www.youtube.com/watch?v=j1K4lCAkjSQ) | 5:59 | NRQL |
 | [Exploring Your Data Using NRQL](https://www.youtube.com/watch?v=59oJ3L0vQTM) | 56:09 | NRQL |
+| [Enhancements to the New Relic Query Language (NRQL)](https://www.youtube.com/watch?v=UGCyV3kWTg4) | 32:15 | NRQL |
 | [Query metrics in New Relic using PromQL](https://www.youtube.com/watch?v=OQ7rK22Q4II) | 4:07 | NRQL - PromQL |
 
 ## OpenTelemetry
@@ -350,6 +393,7 @@ Check out some tutorials on [YouTube](https://www.youtube.com/@NewRelicInc).
 | [Test Complex User Flows With No Code – New Relic Synthetics](https://www.youtube.com/watch?v=Gv8YflBQGTg) | 5:14 | Synthetics |
 | [Availability and Functionality Monitoring with New Relic Synthetics](https://www.youtube.com/watch?v=d83UCezzGMk) | 5:16 | Synthetics |
 | [True Availability Using Synthetics](https://www.youtube.com/watch?v=7MM6qWWiA1U) | 55:06 | Synthetics |
+| [Synthetic Monitors in the New Relic Mobile App](https://www.youtube.com/watch?v=08U1tdp94Sw) | 5:15 | Synthetics |
 
 ## Terraform
 
@@ -357,6 +401,7 @@ Check out some tutorials on [YouTube](https://www.youtube.com/@NewRelicInc).
 | :-- | :-- | :-- |
 | [Creating and Managing Entities via Terraform](https://www.youtube.com/watch?v=WIVOgYlID-E) | 3:27 | Terraform |
 | [Up and running in minutes with Terraform and New Relic](https://www.youtube.com/watch?v=sSQKCVe8JsY) | 3:54 | Terraform |
+| [Easy dashboard maintenance in Terraform](https://www.youtube.com/watch?v=he0dnNCqF4U) | 4:12 | Terraform |
 | [Terraform Provider for New Relic - Getting Started Guide](https://www.youtube.com/watch?v=UwJ-7BLylJo) | 6:51 | Terrafrom |
 
 ## Troubleshooting
@@ -387,6 +432,8 @@ Check out some tutorials on [YouTube](https://www.youtube.com/@NewRelicInc).
 | [New Relic Vulnerability Management now in Public Preview](https://www.youtube.com/watch?v=4U3Z0z_r6vk) | 2:55 | Vulnerability Management |
 | [Instant Observability for Lacework](https://www.youtube.com/watch?v=Gip6nDmOcak) | 38:20 | Vulnerability Management |
 | [Uncover Security Anomalies in the Cloud](https://www.youtube.com/watch?v=0MNamVMbmcY) | 48:58 | Vulnerability Management |
+| [New Relic Vulnerability Management](https://www.youtube.com/watch?v=BFVvvnPbVP0) | 2:20 | Vulnerability Management |
+| [Changelog - New Relic Vulnerability Management](https://www.youtube.com/watch?v=mYq2gYXvz2M) | 59:18 | Vulnerability Management |
 
 ## Workloads
 
