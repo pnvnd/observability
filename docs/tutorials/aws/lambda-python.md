@@ -57,24 +57,24 @@ Note: Your function name will be your `entity.name` and `service.name` in New Re
     #Set an environemnt variable 'OPENTELEMETRY_COLLECTOR_CONFIG_FILE' to '/var/task/collector.yaml'
 
     receivers:
-    otlp:
+      otlp:
         protocols:
-        grpc:
-        http:
+          grpc:
+          http:
 
     exporters:
-    logging:
+      logging:
         loglevel: debug
-    otlp:
+      otlp:
         endpoint: "otlp.nr-data.net:4317"
         headers:
-        api-key: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXNRAL"
+          api-key: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXNRAL"
 
     service:
-    pipelines:
+      pipelines:
         traces:
-        receivers: [otlp]
-        exporters: [otlp]
+          receivers: [otlp]
+          exporters: [otlp]
     ```
     ![Screenshot 5](lambda-python/lambda-python_05.png)
 
