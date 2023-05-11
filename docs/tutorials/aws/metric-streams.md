@@ -136,3 +136,6 @@ https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/aws-services-clou
 
 
 Once you can confirm AWS metrics are showing up on New Relic, we can start creating custom dashboards.
+
+(Optional) Go into AWS CloudWatch > Metrics > Streams and click `Edit`.  Here you can filter by specific namespaces such as `AWS/EC2` and `AWS/Lambda` to control data ingest.
+![](metric-streams/metric-streams_22.png)
