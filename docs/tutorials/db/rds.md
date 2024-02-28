@@ -23,6 +23,7 @@ flowchart LR
     end
 
     id1-->id2-->nr1
+linkStyle default stroke:red
  ```
 
 
@@ -67,6 +68,7 @@ flowchart LR
     id5-->nri-mssql
     id6-->nri-oracledb
 
+linkStyle default stroke:red
  ```
 
 ## Setup

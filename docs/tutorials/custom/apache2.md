@@ -22,6 +22,7 @@ flowchart LR
     users-->apache2
     users-->apps
     apps-->apache2-->|opentelemetry_module.conf| otelcol--> |otel-config.yaml| newrelic
+linkStyle default stroke:red
  ```
 
 ## Instructions
